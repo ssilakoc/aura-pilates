@@ -4,14 +4,14 @@ import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 
 const images = [
-  { src: '/images/spor.webp', alt: 'Aura Sports Club', aspect: 'aspect-[4/5]' },
-  { src: '/images/spor1.webp', alt: 'Pilates Dersi', aspect: 'aspect-[4/3]' },
-  { src: '/images/spor2.webp', alt: 'Boks Antrenmanı', aspect: 'aspect-[4/5]' },
-  { src: '/images/spor4.webp', alt: 'Stüdyo', aspect: 'aspect-[4/3]' },
-  { src: '/images/spor5.webp', alt: 'Grup Dersi', aspect: 'aspect-[4/5]' },
-  { src: '/images/spor6.webp', alt: 'Spor', aspect: 'aspect-[4/3]' },
-  { src: '/images/spor7.webp', alt: 'Antrenman', aspect: 'aspect-square' },
-  { src: '/images/pilates.jpeg', alt: 'Pilates', aspect: 'aspect-[4/3]' },
+  { src: '/images/pilates.jpeg', alt: 'Aura Sports Club', aspect: 'aspect-[4/5]' },
+  { src: '/images/pilates2.jpeg', alt: 'Pilates Dersi', aspect: 'aspect-[4/3]' },
+  { src: '/images/pilates3.jpeg', alt: 'Boks Antrenmanı', aspect: 'aspect-[4/5]' },
+  { src: '/images/pilates4.jpeg', alt: 'Stüdyo', aspect: 'aspect-[4/3]' },
+  { src: '/images/pilates5.jpeg', alt: 'Grup Dersi', aspect: 'aspect-[4/5]' },
+  { src: '/images/pilates6.jpeg', alt: 'Spor', aspect: 'aspect-[4/3]' },
+  { src: '/images/pilates7.jpeg', alt: 'Antrenman', aspect: 'aspect-square' },
+  { src: '/images/pilates8.jpeg', alt: 'Pilates', aspect: 'aspect-[4/3]' },
 ]
 
 export default function Gallery() {

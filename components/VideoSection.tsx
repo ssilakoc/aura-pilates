@@ -53,9 +53,6 @@ export default function VideoSection() {
                 en güçlü aracınızdır.&rdquo;
               </blockquote>
               <div className="reveal reveal-delay-2 mt-6 w-12 h-px bg-gold" />
-              <p className="reveal reveal-delay-3 mt-4 font-sans text-white/60 text-sm tracking-[0.1em]">
-                — Çağla, Kurucu & Baş Eğitmen
-              </p>
             </div>
           </div>
         </div>

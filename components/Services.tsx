@@ -11,8 +11,8 @@ const services = [
     subtitle: 'Güç · Esneklik · Denge',
     description:
       'Pilates, bedeninizi içten dışa güçlendiren, postürünüzü düzelten ve zihninizi sakinleştiren bütünsel bir hareket pratiğidir. Her seviyeye uygun derslerimizle başlayın.',
-    features: ['Reformer Pilates', 'Mat Pilates', 'Grup & Özel Dersler', 'Prenatal Pilates'],
-    image: '/images/spor3.webp',
+    features: ['Reformer Pilates', 'Mat Pilates', 'Grup & Özel Dersler', 'Hamile Pilates', 'Klinik Pilates'],
+    image: '/images/pilates8.jpeg',
     bg: 'bg-sand',
   },
   {
@@ -22,7 +22,7 @@ const services = [
     subtitle: 'Güç · Hız · Kararlılık',
     description:
       'Boks, sadece bir spor değil; zihinsel dayanıklılık, koordinasyon ve özgüven inşa eden güçlü bir pratiktir. Teknik öğrenin, kondisyon kazanın, kendinizi aşın.',
-    features: ['Teknik Boks', 'Fitness Boks', 'Kondisyon Antrenmanı', 'Özel Dersler'],
+    features: ['Teknik Boks', 'Fonksiyonel Antrenman', 'Kondisyon Antrenmanı', 'Özel Dersler', 'Düet Dersler'],
     image: '/images/pilates2.jpeg',
     bg: 'bg-cream',
   },
