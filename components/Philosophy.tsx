@@ -38,7 +38,7 @@ export default function Philosophy() {
           <div className="reveal reveal-delay-1 relative">
             <div className="relative aspect-[3/4] img-zoom">
               <Image
-                src="/images/pilates.jpeg"
+                src="/images/pilates6.jpeg"
                 alt="Aura Sports Club Stüdyo"
                 fill
                 className="object-cover"
