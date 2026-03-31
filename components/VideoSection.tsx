@@ -22,7 +22,6 @@ export default function VideoSection() {
 
   return (
     <section ref={sectionRef} className="relative bg-dark overflow-hidden">
-      {/* Video */}
       <div className="relative h-[70vh] min-h-[400px]">
         <video
           autoPlay
@@ -34,7 +33,6 @@ export default function VideoSection() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark/80 via-dark/40 to-transparent" />
 
-        {/* Content overlay */}
         <div className="relative z-10 h-full flex items-center">
           <div className="max-w-7xl mx-auto px-6 lg:px-12 w-full">
             <div className="max-w-xl">

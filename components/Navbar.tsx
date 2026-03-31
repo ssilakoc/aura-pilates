@@ -31,7 +31,6 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-[72px]">
-        {/* Logo */}
         <Link href="/" className="flex flex-col leading-none group">
           <span
             className={`font-serif text-2xl tracking-[0.12em] transition-colors duration-300 ${
@@ -49,7 +48,6 @@ export default function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop Nav */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -65,7 +63,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
             href="https://wa.me/905318295111"
@@ -84,7 +81,6 @@ export default function Navbar() {
           </a>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className={`md:hidden flex flex-col gap-1.5 p-2 transition-colors ${
@@ -98,7 +94,6 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
       <div
         className={`md:hidden bg-cream border-t border-warm transition-all duration-400 overflow-hidden ${
           menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'

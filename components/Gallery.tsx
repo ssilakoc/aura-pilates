@@ -37,7 +37,6 @@ export default function Gallery() {
   return (
     <section id="galeri" ref={sectionRef} className="bg-cream py-24 lg:py-36">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-16">
           <div>
             <div className="reveal flex items-center gap-4 mb-6">
@@ -68,7 +67,6 @@ export default function Gallery() {
           </div>
         </div>
 
-        {/* Masonry Grid */}
         <div className="columns-2 md:columns-3 lg:columns-4 gap-3 space-y-3">
           {images.map((img, i) => (
             <div
@@ -90,7 +88,6 @@ export default function Gallery() {
           ))}
         </div>
 
-        {/* Instagram CTA */}
         <div className="reveal mt-12 text-center">
           <a
             href="https://www.instagram.com/aurasports_zekeriyakoy/"

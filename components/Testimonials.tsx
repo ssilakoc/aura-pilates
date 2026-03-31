@@ -50,7 +50,6 @@ export default function Testimonials() {
   return (
     <section ref={sectionRef} className="bg-sand py-24 lg:py-36">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        {/* Header */}
         <div className="flex items-center gap-4 mb-6 reveal">
           <div className="divider" />
           <span className="section-label">Üyelerimiz Anlatıyor</span>
@@ -64,7 +63,6 @@ export default function Testimonials() {
           <span className="text-gold-gradient italic">gerçek hikayeler.</span>
         </h2>
 
-        {/* Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {testimonials.map((t, i) => (
             <div
@@ -72,7 +70,6 @@ export default function Testimonials() {
               className={`reveal bg-cream p-8 border border-warm hover:border-gold transition-colors duration-300`}
               style={{ transitionDelay: `${i * 0.1}s` }}
             >
-              {/* Quote mark */}
               <div className="font-serif text-5xl text-gold/30 leading-none mb-4">&ldquo;</div>
 
               <p className="font-sans text-muted text-sm leading-relaxed mb-8">
@@ -92,7 +89,6 @@ export default function Testimonials() {
           ))}
         </div>
 
-        {/* Stars rating */}
         <div className="reveal mt-12 text-center">
           <div className="inline-flex items-center gap-2">
             {[...Array(5)].map((_, i) => (

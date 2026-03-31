@@ -27,11 +27,10 @@ export default function Contact() {
     <section id="iletisim" ref={sectionRef} className="bg-cream py-24 lg:py-36">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
-          {/* Left: Image */}
           <div className="reveal order-2 lg:order-1 img-zoom">
             <div className="relative aspect-[3/4]">
               <Image
-                src="/images/spor5.webp"
+                src="/images/pilates5.jpeg"
                 alt="Stüdyo"
                 fill
                 className="object-cover"
@@ -40,7 +39,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right: Content */}
           <div className="order-1 lg:order-2 flex flex-col justify-center space-y-10">
             <div>
               <div className="reveal flex items-center gap-4 mb-6">
@@ -65,7 +63,6 @@ export default function Contact() {
               </p>
             </div>
 
-            {/* Info items */}
             <div className="reveal reveal-delay-2">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 flex items-center justify-center bg-gold/10 text-gold flex-shrink-0 mt-0.5">
@@ -100,7 +97,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* CTA Buttons */}
             <div className="reveal reveal-delay-3 flex flex-col sm:flex-row gap-4">
               <a
                 href="https://wa.me/905318295111"

@@ -3,7 +3,6 @@ export default function Footer() {
 
   return (
     <footer className="bg-dark text-white">
-      {/* CTA Strip */}
       <div className="border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20 text-center">
           <h2
@@ -42,10 +41,8 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Footer bottom */}
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Logo */}
           <div>
             <div className="font-serif text-xl tracking-[0.12em] text-white">AURA</div>
             <div className="font-sans text-[9px] tracking-[0.35em] uppercase text-gold mt-0.5">
@@ -53,7 +50,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Nav */}
           <nav className="flex flex-wrap items-center gap-6 justify-center">
             {[
               { label: 'Stüdyo', href: '#studyo' },
@@ -71,7 +67,6 @@ export default function Footer() {
             ))}
           </nav>
 
-          {/* Social */}
           <div className="flex items-center gap-4">
             <a
               href="https://www.instagram.com/aurasports_zekeriyakoy/"

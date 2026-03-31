@@ -13,7 +13,6 @@ export default function Hero() {
 
   return (
     <section className="relative w-full h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
-      {/* Video Background */}
       <video
         ref={videoRef}
         autoPlay
@@ -24,15 +23,11 @@ export default function Hero() {
         src="/videos/video3.mp4"
       />
 
-      {/* Overlay */}
       <div className="absolute inset-0 video-overlay" />
 
-      {/* Gradient bottom fade */}
       <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-cream to-transparent" />
 
-      {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto flex flex-col items-center">
-        {/* Label */}
         <div className="flex items-center gap-3 mb-8 animate-fade-in" style={{ animationDelay: '0.2s', opacity: 0, animationFillMode: 'forwards' }}>
           <div className="w-8 h-px bg-gold" />
           <span className="font-sans text-[10px] tracking-[0.35em] uppercase text-white/80">
@@ -41,7 +36,6 @@ export default function Hero() {
           <div className="w-8 h-px bg-gold" />
         </div>
 
-        {/* Main title */}
         <h1
           className="font-serif text-white mb-6 animate-fade-in"
           style={{
@@ -56,7 +50,6 @@ export default function Hero() {
           AURA
         </h1>
 
-        {/* Subtitle */}
         <p
           className="font-sans text-white/85 text-sm md:text-base tracking-[0.2em] uppercase mb-12 animate-fade-in"
           style={{ animationDelay: '0.6s', opacity: 0, animationFillMode: 'forwards' }}
@@ -64,7 +57,6 @@ export default function Hero() {
           Pilates & Boks Stüdyosu
         </p>
 
-        {/* CTA Buttons */}
         <div
           className="flex flex-col sm:flex-row items-center gap-4 animate-fade-in"
           style={{ animationDelay: '0.8s', opacity: 0, animationFillMode: 'forwards' }}
@@ -92,7 +84,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div
         className="absolute bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in"
         style={{ animationDelay: '1.2s', opacity: 0, animationFillMode: 'forwards' }}

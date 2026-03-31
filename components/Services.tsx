@@ -50,7 +50,6 @@ export default function Services() {
 
   return (
     <section id="hizmetler" ref={sectionRef} className="bg-cream">
-      {/* Section header */}
       <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-16">
         <div className="reveal flex items-center gap-4 mb-6">
           <div className="divider" />
@@ -66,7 +65,6 @@ export default function Services() {
         </h2>
       </div>
 
-      {/* Service blocks */}
       {services.map((service, idx) => (
         <div key={service.id} className={`${service.bg}`}>
           <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20">
@@ -75,7 +73,6 @@ export default function Services() {
                 idx % 2 === 1 ? 'lg:grid-flow-col-dense' : ''
               }`}
             >
-              {/* Image */}
               <div className={`reveal ${idx % 2 === 1 ? 'lg:col-start-2' : ''} img-zoom`}>
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
@@ -89,7 +86,6 @@ export default function Services() {
                 </div>
               </div>
 
-              {/* Content */}
               <div className={`space-y-7 ${idx % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
                 <div className="reveal">
                   <span className="section-label">{service.label}</span>
@@ -130,7 +126,6 @@ export default function Services() {
         </div>
       ))}
 
-      {/* Personal Training Block */}
       <div className="bg-dark py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 text-center">
           <div className="reveal">

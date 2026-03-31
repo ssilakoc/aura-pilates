@@ -27,14 +27,12 @@ export default function Philosophy() {
   return (
     <section id="studyo" ref={sectionRef} className="bg-cream py-24 lg:py-36">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        {/* Top label */}
         <div className="reveal flex items-center gap-4 mb-20">
           <div className="divider" />
           <span className="section-label">Stüdyomuz</span>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Left: Image */}
           <div className="reveal reveal-delay-1 relative">
             <div className="relative aspect-[3/4] img-zoom">
               <Image
@@ -45,7 +43,6 @@ export default function Philosophy() {
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
-            {/* Floating badge */}
             <div className="absolute -bottom-6 -right-6 bg-gold text-white p-8 hidden lg:block">
               <div className="font-serif text-4xl font-normal leading-none">10+</div>
               <div className="font-sans text-[10px] tracking-[0.2em] uppercase mt-1 text-white/80">
@@ -54,7 +51,6 @@ export default function Philosophy() {
             </div>
           </div>
 
-          {/* Right: Text */}
           <div className="space-y-8">
             <h2
               className="reveal reveal-delay-2 font-serif text-dark"
@@ -79,7 +75,6 @@ export default function Philosophy() {
               </p>
             </div>
 
-            {/* Stats */}
             <div className="reveal reveal-delay-4 grid grid-cols-2 gap-8 pt-6 border-t border-warm">
               {[
                 { num: '50+', label: 'Aktif Üye' },
