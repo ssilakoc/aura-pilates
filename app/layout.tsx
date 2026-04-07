@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   description:
     'Zekeriyaköy\'ün kalbinde pilates ve boks stüdyosu. Bedeninizi ve zihninizi keşfedin. Reformer Pilates, Mat Pilates, Boks dersleri.',
   keywords: 'pilates, boks, spor stüdyosu, zekeriyaköy, sarıyer, istanbul, reformer pilates',
+  icons: {
+    icon: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
   openGraph: {
     title: 'AURA Sports Club | Pilates & Boks Stüdyosu',
     description: 'Zekeriyaköy\'ün kalbinde pilates ve boks stüdyosu.',
