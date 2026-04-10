@@ -6,6 +6,10 @@ export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null)
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      history.scrollRestoration = 'manual'
+      window.scrollTo(0, 0)
+    }
     if (videoRef.current) {
       videoRef.current.playbackRate = 0.85
     }
